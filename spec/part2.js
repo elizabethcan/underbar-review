@@ -89,8 +89,6 @@
       });
 
       it('fails for a collection of all-falsy values', function() {
-        // Replace this line with an `expect` statement that tests
-        // the behavior described by the `it` string
         expect(_.every([false, null, 0], _.identity)).to.be.false;
       });
 
